@@ -34,6 +34,7 @@ h3,
 h4,
 h5,
 h6 {
+  color: var(--amarelo);
   font-family: "Playfair Display", serif;
 }
 
@@ -57,8 +58,8 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #1a1814;
-  border-top-color: #cda45e;
-  border-bottom-color: #cda45e;
+  border-top-color: var(--amarelo);
+  border-bottom-color: var(--amarelo);
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -89,17 +90,17 @@ h6 {
   height: 44px;
   border-radius: 50px;
   transition: all 0.4s;
-  border: 2px solid #cda45e;
+  border: 2px solid var(--amarelo);
 }
 
 .back-to-top i {
   font-size: 28px;
-  color: #cda45e;
+  color: var(--amarelo);
   line-height: 0;
 }
 
 .back-to-top:hover {
-  background: #cda45e;
+  background: var(--amarelo);
   color: #1a1814;
 }
 
@@ -687,7 +688,7 @@ section {
   font-size: 36px;
   font-weight: 700;
   font-family: "Playfair Display", serif;
-  color: #cda45e;
+  color: var(--amarelo);
 }
 
 /*--------------------------------------------------------------
@@ -1054,7 +1055,7 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/events-bg.jpg) center center no-repeat;
+  background: url("../img/altoPadraoa.jpeg") center center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -1095,7 +1096,7 @@ section {
 .events .event-item h3 {
   font-weight: 600;
   font-size: 26px;
-  color: #cda45e;
+  color: var(--amarelo);
 }
 
 .events .event-item .price {
@@ -1444,7 +1445,7 @@ section {
   float: left;
   width: 44px;
   height: 44px;
-  background: #cda45e;
+  background: var(--amarelo);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1559,7 +1560,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #cda45e;
+  background: var(--amarelo);
   border: 0;
   padding: 10px 35px;
   color: #fff;
@@ -1592,7 +1593,7 @@ section {
 }
 
 #footer .footer-top {
-  background: #0c0b09;
+  background-image: linear-gradient(to right, #000000 , #FFB800);
   border-top: 1px solid #37332a;
   border-bottom: 1px solid #28251f;
   padding: 60px 0 30px 0;
@@ -1609,7 +1610,7 @@ section {
   line-height: 1;
   font-weight: 300;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: 'bank';
 }
 
 #footer .footer-top .footer-info p {
