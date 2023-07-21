@@ -1714,14 +1714,14 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #cda45e;
+  background: var(--preto);
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
 }
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
-  background: #d3af71;
+  background: var(--amarelo);
 }
 
 #footer .copyright {
