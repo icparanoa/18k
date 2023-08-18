@@ -1360,12 +1360,12 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
   font-size: 20px;
-  color: #012970;
+  color: var(--preto);
   font-weight: 700;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
-  color: #012970;
+  color: var(--preto);
   font-weight: 600;
   font-size: 14px;
   text-transform: uppercase;
@@ -1380,7 +1380,7 @@ section {
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
-  background: #4154f1;
+  background: var(--amarelo);
   margin: 10px 2px;
   width: 36px;
   height: 36px;
@@ -1397,7 +1397,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #5969f3;
+  background: var(--preto);
 }
 
 .portfolio .portfolio-wrap:hover img {
