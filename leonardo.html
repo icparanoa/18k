@@ -68,6 +68,7 @@
                     <img src="./assets/img/portfolio/leonardo/logo.svg" alt="">
                 </div>
             </div>
+        </div>
     </section><!-- End Hero -->
 
     <main id="main">
@@ -108,20 +109,24 @@
                     <h2>Leonardo Bueno</h2>
                     <p>“A Arte de Viver da Arte”</p>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col">
-                            <button id="prev-page" class="book-a-table-btn" style="background: #000;">Página
-                                Anterior</button>
-                            <button id="next-page" class="book-a-table-btn" style="background: #000;">Próxima
-                                Página</button>
-                        </div>
+            </div>
+
+            <div class="container position-relative text-center text-lg-start">
+                <div class="row">
+                    <div class="col-2">
+                        <button id="prev-page" class="btn btn-primary btn-block">
+                            <i class="bi bi-caret-left"></i>
+                        </button>
                     </div>
-                    <br>
-                    <div class="row">
-                        <div class="col embed-responsive embed-responsive-16by9">
+                    <div class="col-md-9">
+                        <div class="embed-responsive embed-responsive-16by9 mx-auto">
                             <canvas id="pdf-viewer" class="embed-responsive-item"></canvas>
                         </div>
+                    </div>
+                    <div class="col-1">
+                        <button id="next-page" class="btn btn-primary btn-block">
+                            <i class="bi bi-caret-right"></i>
+                        </button>
                     </div>
                 </div>
             </div>
