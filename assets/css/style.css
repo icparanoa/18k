@@ -38,6 +38,13 @@ h6 {
   font-family: "Playfair Display", serif;
 }
 
+/* Estilo opcional para o visualizador de PDF responsivo */
+.embed-responsive {
+  max-height: 600px; /* Defina a altura máxima desejada */
+  margin: 0 auto; /* Centralize o visualizador na página */
+}
+
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
