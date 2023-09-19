@@ -58,12 +58,14 @@
     </header><!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex align-items-center">
+    <section style="background: url('./assets/img/portfolio/leonardo/LeoBueno.jpg') top center; 
+      background-size: contain;
+      background-position: relative;
+      background-repeat: no-repeat;" id="hero" class="d-flex align-items-center">
         <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
             <div class="row">
                 <div class="col-lg-8">
-                    <h1>Bem Vindo a <span>18K Diamond</span></h1>
-                    <h2>Exclusividade e Estilo num único lugar</h2>
+                    <img src="./assets/img/portfolio/leonardo/logo.svg" alt="">
                 </div>
             </div>
     </section><!-- End Hero -->
@@ -106,8 +108,20 @@
                     <h2>Leonardo Bueno</h2>
                     <p>“A Arte de Viver da Arte”</p>
                 </div>
-                <embed src="./assets/img/portfolio/leonardo/catalogo.pdf" type="application/pdf" width="100%"
-                    height="550px">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <button id="prev-page" class="book-a-table-btn" style="background: #000;">Página Anterior</button>
+                            <button id="next-page" class="book-a-table-btn" style="background: #000;">Próxima Página</button>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col">
+                            <canvas id="pdf-viewer"></canvas>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -255,6 +269,10 @@
             class="bi bi-arrow-up-short"></i></a>
 
     <!-- Vendor JS Files -->
+    
+    <script src="./assets/js/pdf.js"></script>
+    <script src="./assets/js/pdf.worker.js"></script>
+    <script src="./assets/js/script.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
