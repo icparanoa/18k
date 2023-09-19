@@ -20,7 +20,7 @@ function loadPDF() {
 // Função para renderizar a página atual
 function renderPage(pageNumber) {
     pdfDoc.getPage(pageNumber).then(function (page) {
-        const viewport = page.getViewport({ scale: 0.7});
+        const viewport = page.getViewport({ scale: 0.9});
 
         // Ajustar o tamanho do visualizador de PDF
         pdfViewer.width = viewport.width;
